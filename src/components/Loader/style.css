@@ -18,6 +18,7 @@
     color: white;
     font-size: 5rem;
     flex-direction: column;
+    z-index: 100000;
 }
 
 .loader.show {

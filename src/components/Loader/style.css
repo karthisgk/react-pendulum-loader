@@ -1,0 +1,111 @@
+
+.loader {
+    --dot-size: 16px;
+    --dot-translatex: calc(var(--dot-size) * 7);
+    --dots-translatex: calc(var(--dot-size) - 36px);
+    --animate-deplay: 1.8s;
+    --dot-color: #000;
+    --bg-dim: .3;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, var(--bg-dim));
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 5rem;
+    flex-direction: column;
+}
+
+.loader.show {
+    display: flex;
+}
+
+.loader .dot-holder {
+   position: relative;
+}
+
+.loader .dot-holder .dot {
+    position: relative;
+    display: flex;
+}
+
+.loader .dot-holder .dot::before {
+    content: '';
+    position: absolute;
+    width: var(--dot-size);
+    height: var(--dot-size);
+    background-color: var(--dot-color);
+    border-radius: 50%;
+    transform: translatex(0);
+    animation: dot var(--animate-deplay) infinite;
+}
+
+.loader .dot-holder .dots {
+    transform: translateX(0);
+    margin-left: var(--dot-size);
+    animation: dots var(--animate-deplay) infinite;
+}
+
+.loader .dot-holder .dots span::before {
+    content: '';
+    float: left;
+    width: var(--dot-size);
+    height: var(--dot-size);
+    margin-left: var(--dot-size);
+    background-color: var(--dot-color);
+    border-radius: 50%; 
+}
+
+@-moz-keyframes dot {
+    50% {
+        transform: translateX(var(--dot-translatex));
+    }
+}
+
+@-webkit-keyframes dot {
+    50% {
+        transform: translateX(var(--dot-translatex));
+    }
+}
+
+
+@-o-keyframes dot {
+    50% {
+        transform: translateX(var(--dot-translatex));
+    }
+}
+
+@keyframes dot {
+    50% {
+        transform: translateX(var(--dot-translatex));
+    }
+}
+
+@-moz-keyframes dots {
+    50% {
+        transform: translateX(var(--dots-translatex));
+    }
+}
+
+@-webkit-keyframes dots {
+    50% {
+        transform: translateX(var(--dots-translatex));
+    }
+}
+
+
+@-o-keyframes dots {
+    50% {
+        transform: translateX(var(--dots-translatex));
+    }
+}
+
+@keyframes dots {
+    50% {
+        transform: translateX(var(--dots-translatex));
+    }
+}

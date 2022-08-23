@@ -3,9 +3,6 @@
     --dot-size: 16px;
     --dot-translatex: calc(var(--dot-size) * 7);
     --dots-translatex: calc(var(--dot-size) - 36px);
-    --animate-deplay: 1.8s;
-    --dot-color: #000;
-    --bg-dim: .3;
     display: none;
     position: fixed;
     top: 0;

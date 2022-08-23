@@ -10,7 +10,7 @@ You can get it on NPM installing `react-pendulum-loader` component as a project 
 npm install react-pendulum-loader
 ```
 
-![Screen Shot](https://raw.githubusercontent.com/karthisgk/tic-tac-toe/main/public/images/Mobile.png)
+![Screen Shot](https://raw.githubusercontent.com/karthisgk/react-pendulum-loader/main/assets/images/ss.gif)
 
 ## Setup
 

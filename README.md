@@ -18,7 +18,7 @@ You'll need to add `react-pendulum-loader` to your app.js or any other component
 
 ```javascript
 ...
-import Loader from "react-pendulum-loader";
+import { Loader } from "react-pendulum-loader";
 ...
 
 function App() {

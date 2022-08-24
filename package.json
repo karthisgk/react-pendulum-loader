@@ -1,10 +1,28 @@
 {
   "name": "react-pendulum-loader",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "react pendulum loader",
   "scripts": {
     "rollup": "rollup -c"
   },
+  "keywords": [
+    "react-pendulum-loader",
+    "react pendulum loader",
+    "pendulum loader",
+    "pendulum",
+    "pendulum effect loader",
+    "npm pendulum effect loader",
+    "npm pendulum loader",
+    "npm package for pendulum effect",
+    "npm package for pendulum loader",
+    "pendulum loader for react",
+    "pendulum loader for reactjs",
+    "pendulum loader for react js",
+    "react js pendulum loader",
+    "react js pendulum effect loader",
+    "react loader",
+    "reactjs loader"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/karthisgk/react-pendulum-loader.git"
